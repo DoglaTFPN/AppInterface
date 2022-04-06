@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/WelcomeBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="@string/bem_vindo_de_volta"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAppearance="bold"
+        />
+
+    <TextView
+        android:id="@+id/Texto2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/seja_bem_vindo_ao_app_mais_badalado_do_brasil_escolha_umas_da_op_es_abaixo"
+        android:textAlignment="center"
+        android:textColorHint="#90FFFFFF" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:paddingTop="15sp"
+        android:src="@drawable/icon2" />
+
+    <TextView
+        android:textAppearance="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/drip_inc"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/voc_sempre_trajado"
+        android:textColorHint="#90FFFFFF"
+        android:paddingBottom="50dp"
+        />
+
+    <Button
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sign_in"
+        android:background="@drawable/borda"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sign_up"
+        android:background="@drawable/borda"
+        />
+
+    <TextView
+        android:textAppearance="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar_com_as_redes_sociais"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:textSize="15dp"
+
+        />
+
+</LinearLayout>

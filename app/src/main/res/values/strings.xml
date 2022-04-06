@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppInterface</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="seja_bem_vindo_ao_app_mais_badalado_do_brasil_escolha_umas_da_op_es_abaixo">Seja bem vindo ao app mais badalado do Brasil, escolha umas da opções abaixo.</string>
+    <string name="bem_vindo_de_volta">Bem vindo de Volta!</string>
+    <string name="drip_inc">Drip.inc</string>
+    <string name="voc_sempre_trajado">Você sempre trajado</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="entrar_com_as_redes_sociais">Entrar com as redes sociais</string>
+</resources>
